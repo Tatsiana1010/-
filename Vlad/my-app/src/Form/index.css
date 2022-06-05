@@ -1,0 +1,41 @@
+*
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1220px;  
+  padding:0 10px;
+  margin:0 auto;
+}
+
+.menu{
+    margin-right: 70px;
+}
+.ul{
+    margin: 0;
+    
+}
+.li{
+    padding-left: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: #131313;
+    
+}
+.menu__item{
+    list-style: none;
+    
+}
+.menu__link{
+    text-transform: uppercase;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Headerinner{
+    display:flex;
+    justify-content: space-between;
+}
